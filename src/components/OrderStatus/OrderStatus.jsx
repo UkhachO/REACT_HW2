@@ -10,7 +10,6 @@ const OrderStatus = ({orderId, status}) => {
 
     return (
         <div>
-            <h3>Задание 3:</h3>
             <p>Заказ #{orderId}: {status}</p>
         </div>
     );

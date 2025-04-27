@@ -12,7 +12,6 @@ const Greeting = ({name}) => {
     
     return (
         <div>
-            <h3>Задание 1:</h3>
             <p>Привет {name}!</p>
         </div>
     );

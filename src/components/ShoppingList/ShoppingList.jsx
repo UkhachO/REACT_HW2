@@ -25,8 +25,7 @@ const ShoppingList = ({items = []}) => {
 
     return (
         <div>
-            <h3>Задание 2:</h3>
-            <h3>Список покупок:</h3>
+        
         <ul>
             {elements}
         </ul>

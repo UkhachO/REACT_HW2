@@ -16,11 +16,21 @@ function App() {
 
   return (
     <div className="container">
-      <Greeting name = {userItems[0].name} />
+      <div>
+        <h3>Задание 1:</h3>
+        <Greeting name = {userItems[0].name} />
+      </div>
 
-      <ShoppingList items = {shoppingListItems} />
+      <div>
+        <h3>Задание 2:</h3>
+        <p>Список покупок:</p>
+        <ShoppingList items = {shoppingListItems} />
+      </div>
 
-      <OrderStatus {...orderStatusItems[0]} />
+      <div>
+        <h3>Задание 3:</h3>
+        <OrderStatus {...orderStatusItems[0]} />
+      </div>
     
     </div>
   )
