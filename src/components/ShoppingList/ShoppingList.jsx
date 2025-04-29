@@ -16,7 +16,6 @@ const ShoppingList = ({items = []}) => {
     if (!items.length) {
         return (
             <div>
-        
                 <p>Список покупок пуст</p>
             </div>
         )
