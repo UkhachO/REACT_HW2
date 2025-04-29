@@ -8,11 +8,7 @@
 
 const OrderStatus = ({orderId, status}) => {
 
-    return (
-        <div>
-            <p>Заказ #{orderId}: {status}</p>
-        </div>
-    );
+    return  <p>Заказ #{orderId}: {status}</p>;
 
 }
 

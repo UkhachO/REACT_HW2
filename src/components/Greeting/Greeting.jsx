@@ -10,11 +10,7 @@
 
 const Greeting = ({name}) => {
     
-    return (
-        <div>
-            <p>Привет {name}!</p>
-        </div>
-    );
+    return <p>Привет {name}!</p>;
 
 }
 

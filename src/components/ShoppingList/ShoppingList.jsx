@@ -14,21 +14,14 @@ const ShoppingList = ({items = []}) => {
     const elements = items.map(text => <li key={text}> {text} </li>);
 
     if (!items.length) {
-        return (
-            <div>
-                <p>Список покупок пуст</p>
-            </div>
-        )
+        return <p>Список покупок пуст</p>;
         
 }
 
     return (
-        <div>
-        
         <ul>
             {elements}
         </ul>
-        </div>
     );
 
 }
